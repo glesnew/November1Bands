@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="MainCtrl">
+      <h3>Names of The Decemberists (some real, some fake)</h3>
+      <ul>
+        <li ng-repeat="decemberist in decemberists">{{decemberist}}</li>
+      </ul>
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src=main.controller.js></script>
+  </body>
+</html>
